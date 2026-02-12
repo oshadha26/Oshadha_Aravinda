@@ -4,193 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio of Oshadha Aravinda, Frontend Developer specializing in responsive web design and modern JavaScript frameworks">
+    
+    <meta name="description" content="Portfolio of Oshadha Aravinda - Software Engineering Undergraduate & Frontend Developer at Akai Codex. Expert in React, Python, and Creative Web Design.">
+    <meta name="keywords" content="Oshadha Aravinda, Frontend Developer Sri Lanka, Software Engineer, Web Design, Akai Codex, Portfolio">
+    <meta name="author" content="Oshadha Aravinda">
+
     <title>Oshadha Aravinda | Frontend Developer Portfolio</title>
-    <!-- box icons-->
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- custom css-->
+    
     <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            // මෙතැනට ඔයාගේ EmailJS Public Key එක දාන්න (User ID)
+            emailjs.init("rzW-EMsWSCChAviur"); 
+        })();
+    </script>
 </head>
 <body>
-    <!-- header design-->
-     <header class="header">
-        <a href="#" class="logo">#Oshadha_A</a>
+    <header class="header">
+        <a href="#" class="logo">Oshadha.<span class="animate-text">Dev</span></a>
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
+            <a href="#journey">Journey</a>
             <a href="#skills">Skills</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
      </header>
      
-     <!--home section design-->
      <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, I'm</h3>
             <h1>Oshadha Aravinda</h1>
             <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>I craft exceptional digital experiences with clean, efficient code and pixel-perfect designs. Passionate about creating accessible, performant websites that deliver real business value.</p>
+            <p>A passionate Software Engineering undergraduate based in <strong>Polonnaruwa</strong>. Currently crafting modern web experiences at <strong>Akai Codex</strong> while exploring the world of AI and Robotics.</p>
+            
             <div class="social-media">
-            <a href="https://www.facebook.com/share/1CTL1Y7Y1x/"><i class='bx bxl-facebook'></i></a>
-            <a href="https://www.x.com/@AravindakumaraO"><i class='bx bxl-twitter'></i></a>
-            <a href="https://www.instagram.com/oshada_aravinda?igsh=b213ZXFxZnp1bmNu"><i class='bx bxl-instagram-alt' ></i></a>
-            <a href="https://www.tiktok.com/@oshada_aravinda?_t=ZS-8xzwj8Eobiy&_r=1"><i class='bx bxl-tiktok' ></i></a>
+                <a href="https://www.facebook.com/share/1CTL1Y7Y1x/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.x.com/@AravindakumaraO" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/oshada_aravinda?igsh=b213ZXFxZnp1bmNu" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.tiktok.com/@oshada_aravinda?_t=ZS-8xzwj8Eobiy&_r=1" target="_blank"><i class='bx bxl-tiktok' ></i></a>
+                <a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a>
             </div>
-            <a href="My Professional Cv_.pdf" class="btn">Download CV</a>
+            <a href="#" class="btn">Download CV</a>
         </div>
         <div class="home-img">
-            <img src="images/home.png" alt="Oshadha Aravinda profile illustration">
+            <img src="images/home.png" alt="Oshadha Aravinda Profile">
         </div>
      </section>
 
-     <!--about section design-->
      <section class="about" id="about">
         <div class="about-img">
-            <img src="images/about.png" alt="About Oshadha Aravinda">
+            <img src="images/about.png" alt="About Oshadha">
         </div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Frontend Developer</h3>
-            <p>With 5+ years of experience in web development, I specialize in creating responsive, user-friendly interfaces. My approach combines technical expertise with an eye for design, ensuring that every project not only functions flawlessly but also delivers an exceptional user experience.</p>
-            <p>When I'm not coding, you can find me contributing to open-source projects, writing technical articles, or exploring new web technologies. I believe in continuous learning and staying at the forefront of frontend development trends.</p>
-            <a href="#" class="btn">Read More</a>
+            <h3>Frontend Developer & Tech Enthusiast</h3>
+            <p>I am a 21-year-old developer from Siripura, Polonnaruwa. I am currently pursuing my <strong>Software Engineering</strong> degree at <strong>Esoft Metro Campus</strong>.</p>
+            
+            <p>
+                Beyond coding, I am passionate about **User Experience (UX)** and **Code Optimization**. I constantly explore emerging web technologies to build faster, more scalable applications.
+                <span class="more-text">
+                     My journey involves not just writing code, but solving real-world problems through technology. I am currently focusing on mastering **Modern JavaScript Frameworks** and **Backend Integration** to become a proficient Full-Stack Engineer who can deliver complete digital solutions.
+                </span>
+            </p>
+            
+            <a href="javascript:void(0);" class="btn" id="readMoreBtn">Read More</a>
         </div>
      </section>
 
-     <!--skills section design-->
+     <section class="journey" id="journey">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="journey-container">
+            <div class="journey-box">
+                <div class="journey-content">
+                    <div class="year"><i class='bx bxs-calendar'></i> 2024 - Present</div>
+                    <h3>Frontend Developer</h3>
+                    <p class="place">Akai Codex</p>
+                    <p>Working as a Frontend Developer and Web Designer, creating responsive interfaces and maintaining client websites.</p>
+                </div>
+            </div>
+            <div class="journey-box">
+                <div class="journey-content">
+                    <div class="year"><i class='bx bxs-calendar'></i> 2023 - Present</div>
+                    <h3>Software Engineering</h3>
+                    <p class="place">Esoft Metro Campus</p>
+                    <p>Pursuing HND and Degree in Software Engineering. Learning OOP, Databases, and System Design.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
      <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span></h2>
+        <h2 class="heading">Technical <span>Skills</span></h2>
         <div class="skills-container">
             <div class="skill-category">
-                <h3>Frontend</h3>
+                <h3><i class='bx bx-code-alt'></i> Web Technologies</h3>
                 <div class="skill-items">
                     <span>HTML5</span>
-                    <span>CSS3/Sass</span>
-                    <span>JavaScript (ES6+)</span>
-                    <span>React.js</span>
-                    <span>Vue.js</span>
-                    <span>TypeScript</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Wordpress</span>
+                    <span>Bootstrap</span>
                 </div>
             </div>
             <div class="skill-category">
-                <h3>Tools & Platforms</h3>
+                <h3><i class='bx bx-chip'></i> Programming & Hardware</h3>
                 <div class="skill-items">
-                    <span>Git/GitHub</span>
-                    <span>Webpack</span>
-                    <span>Figma</span>
-                    <span>Adobe XD</span>
-                    <span>Netlify</span>
-                    <span>Vercel</span>
-                    <span>WordPress</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3>Other</h3>
-                <div class="skill-items">
-                    <span>Responsive Design</span>
-                    <span>Web Accessibility</span>
-                    <span>Performance Optimization</span>
-                    <span>Cross-browser Compatibility</span>
-                    <span>REST APIs</span>
-                    <span>GraphQL</span>
+                    <span>Python</span>
+                    <span>C#</span>
+                    <span>C Language</span>
+                    <span>Arduino</span>
+                    <span>Robotics</span>
                 </div>
             </div>
         </div>
      </section>
 
-     <!--services section design-->
      <section class="services" id="services">
         <h2 class="heading">My <span>Services</span></h2>
         <div class="services-container">
             <div class="services-box">
-                <i class='bx bx-code-alt'></i>
+                <i class='bx bx-code-block'></i>
                 <h3>Web Development</h3>
-                <p>Custom website development with modern frameworks, ensuring fast load times, mobile responsiveness, and clean code architecture.</p>
-                <a href="#" class="btn">Read More</a>
+                <p>Building responsive websites using modern technologies like HTML, CSS, JS, and React.</p>
+                <a href="#" class="btn">Learn More</a>
             </div>
             <div class="services-box">
-                <i class='bx bx-paint'></i>
+                <i class='bx bx-palette'></i>
                 <h3>UI/UX Design</h3>
-                <p>User-centered interface design that combines aesthetics with functionality, creating intuitive and engaging user experiences.</p>
-                <a href="#" class="btn">Read More</a>
+                <p>Designing user-friendly interfaces for web and mobile applications.</p>
+                <a href="#" class="btn">Learn More</a>
             </div>
             <div class="services-box">
-                <i class='bx bx-bar-chart-alt'></i>
-                <h3>Performance Optimization</h3>
-                <p>Comprehensive website audits and optimizations to improve loading speed, SEO rankings, and overall user satisfaction.</p>
-                <a href="#" class="btn">Read More</a>
+                <i class='bx bx-microchip'></i>
+                <h3>IoT & Robotics</h3>
+                <p>Developing Arduino-based projects and sensor integration systems.</p>
+                <a href="#" class="btn">Learn More</a>
             </div>
         </div>
      </section>
 
-     <!--portfolio section design-->
      <section class="portfolio" id="portfolio">
         <h2 class="heading">Latest <span>Projects</span></h2>
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="images/portfolio1.png" alt="E-commerce website project">
+                <img src="images/portfolio1.png" alt="ATTENDCI V.2">
                 <div class="portfolio-layer">
-                    <h4>Modern E-commerce Platform</h4>
-                    <p>React-based online store with cart functionality and payment integration.</p>
-                    <a href="#" aria-label="View E-commerce project"><i class='bx bx-link-external'></i></a>
+                    <h4>Ecommerce Site</h4>
+                    <p>Mobile phone and accsosries salling web site for Phone hub shop.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="images/portfolio2.jpg" alt="Dashboard application project">
+                <img src="images/portfolio2.png" alt="Travel Website">
                 <div class="portfolio-layer">
-                    <h4>Analytics Dashboard</h4>
-                    <p>Interactive data visualization dashboard built with Vue.js and D3.js.</p>
-                    <a href="#" aria-label="View Dashboard project"><i class='bx bx-link-external'></i></a>
+                    <h4>Travel Sri Lanka</h4>
+                    <p>Tourism website featuring Ella, Kandy, and Nuwara Eliya.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="images/portfolio3.jpg" alt="Travel website project">
+                <img src="images/portfolio3.png" alt="Bookstore DB">
                 <div class="portfolio-layer">
-                    <h4>Travel Booking Site</h4>
-                    <p>Responsive travel platform with dynamic content and booking system.</p>
-                    <a href="#" aria-label="View Travel project"><i class='bx bx-link-external'></i></a>
+                    <h4>AKAI CODEX PMS</h4>
+                    <p>Database system for managing project & task.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="images/portfolio4.jpg" alt="Health app project">
+                <img src="images/portfolio4.jpg" alt="Wearable Tech">
                 <div class="portfolio-layer">
-                    <h4>Health & Wellness App</h4>
-                    <p>Progressive Web App for fitness tracking with offline capabilities.</p>
-                    <a href="#" aria-label="View Health app project"><i class='bx bx-link-external'></i></a>
+                    <h4>Wearable Tech</h4>
+                    <p>Arduino-based health monitoring wearable device.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="images/portfolio5.png" alt="Portfolio website project">
+                <img src="images/portfolio5.png" alt="Portfolio Site">
                 <div class="portfolio-layer">
-                    <h4>Artist Portfolio</h4>
-                    <p>Custom portfolio website with animated galleries and CMS integration.</p>
-                    <a href="#" aria-label="View Portfolio project"><i class='bx bx-link-external'></i></a>
+                    <h4>My Portfolio</h4>
+                    <p>Personal portfolio website built with modern web tech.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="images/portfolio6.jpg" alt="Corporate website project">
+                <img src="images/portfolio6.jpg" alt="Video Editing">
                 <div class="portfolio-layer">
-                    <h4>Corporate Website</h4>
-                    <p>Enterprise website with multilingual support and accessibility features.</p>
-                    <a href="#" aria-label="View Corporate website project"><i class='bx bx-link-external'></i></a>
+                    <h4>Video Editing</h4>
+                    <p>Creative video production and visual content creation.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
      </section>
 
-     <!--contact section design-->
      <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#" method="POST" netlify>
+        <form id="contact-form">
             <div class="input-box">
-                <input type="text" name="name" placeholder="Full Name" required>
-                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="text" name="user_name" placeholder="Full Name" required>
+                <input type="email" name="user_email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="tel" name="phone" placeholder="Mobile Number">
+                <input type="tel" name="contact_number" placeholder="Mobile Number">
                 <input type="text" name="subject" placeholder="Email Subject" required>
             </div>
             <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
@@ -198,22 +220,17 @@
         </form>
      </section>
 
-     <!--footer design-->
      <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2025 by Oshadha Aravinda | All Rights Reserved.</p>
-            <div class="footer-iconTop">
-                <a href="#home" aria-label="Back to top"><i class='bx bx-up-arrow-alt'></i></a>
-            </div>
+            <p>Copyright &copy; 2026 by Oshadha Aravinda | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
      </footer>
 
-     <!--scroll reveal-->
      <script src="https://unpkg.com/scrollreveal"></script>
-     <!--typed js-->
      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-     <!--custom js-->
      <script src="js/script.js"></script>
 </body>
-
 </html>
